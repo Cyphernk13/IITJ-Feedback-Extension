@@ -88,7 +88,14 @@ function fillFeedback(type) {
 
 
     console.log(count)
-    const responses = Array(count).fill(5); // Fill first 30 responses with 5
+
+    var typeOfReview;
+
+    if ( typeOfReview === "positive" ) typeOfReview = 5
+    if ( typeOfReview === "neutral" ) typeOfReview = 3
+    if ( typeOfReview === "negative" ) typeOfReview = 0
+
+    const responses = Array(count).fill(typeOfReview); // Fill first 30 responses with 5
     responses.push('The course was challenging but fair, with interesting case studies.'); // Add comment
 
     const payload = new URLSearchParams(baseParams);
