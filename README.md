@@ -1,6 +1,6 @@
-﻿# IIT Feedback Extension
+﻿# IITJ Feedback Extension
 
-The IIT Feedback Extension is a Chrome extension designed to enhance the feedback process for IIT students. This tool streamlines the submission of feedback and aims to improve user experience by simplifying the process.
+The IITJ Feedback Extension is a Chrome extension designed to enhance the feedback process for IIT students. This tool streamlines the submission of feedback and aims to improve user experience by simplifying the process.
 
 ## Installation Instructions
 
